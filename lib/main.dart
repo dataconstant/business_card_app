@@ -65,6 +65,21 @@ class MyApp extends StatelessWidget {
                           fontFamily: 'FredokaOne',
                         ),
                       ),
+                    ))),
+            Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Padding(
+                    padding: EdgeInsets.all(25),
+                    child: ListTile(
+                      leading: Icon(Icons.work),
+                      title: Text(
+                        "github.com/dataconstant",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily: 'FredokaOne',
+                        ),
+                      ),
                     )))
           ],
         ),
